@@ -31,19 +31,6 @@ app.get("/starwars", (req, res) => {
     res.render('starwars/index.ejs')
 })
 
-// app.get("/fruits", (req, res) => {
-//     res.render('fruits/index', {fruits: fruits})
-// })
-
-// app.get("/fruits/new", (req, res) =>{
-//     res.render("fruits/new.ejs")
-// })
-
-// app.get("/fruits/:id", (req, res) => {
-//     //console.log(req.params)
-//     const fruit = fruits[req.params.id];
-//     res.render("fruits/show.ejs", {fruit});
-// })
 
 app.use('', fruitsController);
 
