@@ -19,6 +19,4 @@ const fruits = [
     }
 ];
 
-module.exports = {
-    fruits: fruits,
-}
+module.exports = fruits;
